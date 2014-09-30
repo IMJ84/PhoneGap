@@ -82,6 +82,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <header-file src="platform/ios/AppsFlyerPlugin.h" />
         <header-file src="platform/ios/AppsFlyerTracker.h" />
 	    <source-file src="platform/ios/AppsFlyerPlugin.m" />
-        <source-file src="platform/ios/libAppsFlyerLib.a" compiler-flags="-lAppsFlyerLib" />
+        <source-file src="platform/ios/libAppsFlyerLib.a" compiler-flags="-lAppsFlyerLib" framework="true" />
     </platform>
 </plugin>
